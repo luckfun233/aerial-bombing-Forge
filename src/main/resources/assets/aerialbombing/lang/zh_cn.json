@@ -1,0 +1,36 @@
+{
+  "key.category.aerialbombing": "空中轰炸",
+  "key.aerialbombing.drop_bomb": "投掷炸弹",
+  
+  "text.aerial_bombing.requires_elytra": "需要鞘翅飞行才能进行空中轰炸！",
+  "text.aerial_bombing.requires_tnt": "主手必须持有TNT！",
+  "text.aerial_bombing.requires_flint": "副手需要持有打火石来点燃！",
+  
+  "config.aerialbombing.title": "空中轰炸 配置",
+
+  "config.aerialbombing.general": "通用设置",
+  "config.aerialbombing.enableAerialBombing": "启用空中轰炸",
+  "config.aerialbombing.enableAerialBombing.tooltip": "如果启用，玩家可以使用鞘翅飞行时投掷TNT。",
+  "config.aerialbombing.requireFlintAndSteel": "需要打火石",
+  "config.aerialbombing.requireFlintAndSteel.tooltip": "如果启用，玩家必须在副手持有打火石才能投弹。",
+  "config.aerialbombing.bombCooldownMs": "投弹冷却时间 (毫秒)",
+  "config.aerialbombing.bombCooldownMs.tooltip": "每次投弹之间的最小间隔时间，单位为毫秒。",
+  
+  "config.aerialbombing.physics": "物理设置",
+  "config.aerialbombing.useAdvancedPhysics": "使用高级物理模拟",
+  "config.aerialbombing.useAdvancedPhysics.tooltip": "启用后将使用更复杂的物理引擎，拥有更多可调变量。\n禁用则使用原始、较简单的物理模拟。",
+
+  "config.aerialbombing.advanced_physics": "高级物理参数",
+  "config.aerialbombing.horizontalInertia": "水平惯性 (%)",
+  "config.aerialbombing.horizontalInertia.tooltip": "转移给炸弹的玩家水平速度的百分比。",
+  "config.aerialbombing.verticalInertia": "垂直惯性 (%)",
+  "config.aerialbombing.verticalInertia.tooltip": "转移给炸弹的玩家垂直速度的百分比。",
+  "config.aerialbombing.throwForce": "投掷力量 (%)",
+  "config.aerialbombing.throwForce.tooltip": "在玩家注视方向上施加的额外力量。",
+  "config.aerialbombing.enableAngularVelocity": "启用角速度模拟",
+  "config.aerialbombing.enableAngularVelocity.tooltip": "通过继承玩家的部分角速度来模拟炸弹的旋转。",
+  "config.aerialbombing.enableAdvancedDrag": "启用高级空气阻力",
+  "config.aerialbombing.enableAdvancedDrag.tooltip": "启用一个更真实的空气阻力模型。",
+  "config.aerialbombing.angularMomentumTransfer": "角动量转移 (%)",
+  "config.aerialbombing.angularMomentumTransfer.tooltip": "转移给炸弹的玩家角动量的百分比。"
+}

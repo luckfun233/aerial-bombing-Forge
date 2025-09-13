@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="LGPLV3"
+
+[[mods]]
+modId="aerialbombing"
+version="0.0.1"
+displayName="Aerial Bombing"
+authors="QWEN3-coder and gemini-2.5pro"
+description='Allows players to drop TNT while flying with Elytra, providing a realistic bombing experience.'
+
+# 添加模组图标配置
+# 路径是相对于 resources/ 文件夹的
+logoFile="assets/aerialbombing/icon.png"
+
+[[dependencies.aerialbombing]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.aerialbombing]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
